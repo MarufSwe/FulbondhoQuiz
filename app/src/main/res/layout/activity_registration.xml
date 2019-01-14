@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPurple"
+    tools:context="com.example.khanmaruf.fulbondho.RegistrationActivity">
+
+
+
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="10dp">-->
+
+     <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/student_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:hint="Name"/>
+
+
+    <EditText
+        android:id="@+id/student_school"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        android:hint="School/College" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10dp">
+
+
+        <Spinner
+            android:id="@+id/stu_class"
+            android:layout_width="138dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="7dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/rounded_button"
+            android:prompt="@string/selectclass"
+            android:entries="@array/studentClass"
+            android:spinnerMode="dialog"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="31dp" />
+
+
+    <EditText
+        android:id="@+id/student_roll"
+        android:layout_width="138dp"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="7dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:inputType="textPersonName"
+        android:hint="Roll" />
+
+    </LinearLayout>
+
+
+         <LinearLayout
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:orientation="horizontal"
+             android:paddingLeft="10dp">
+
+             <Spinner
+                 android:id="@+id/spinner1"
+                 android:layout_width="138dp"
+                 android:layout_height="40dp"
+                 android:layout_marginRight="10dp"
+                 android:layout_marginTop="7dp"
+                 android:background="@drawable/rounded_button"
+                 android:entries="@array/district"
+                 android:paddingLeft="10dp"
+                 android:prompt="@string/selectdistrict"
+                 android:spinnerMode="dialog"
+                 tools:layout_editor_absoluteX="8dp"
+                 tools:layout_editor_absoluteY="31dp" />
+
+             <Spinner
+                 android:id="@+id/spinner2"
+                 android:layout_width="138dp"
+                 android:layout_height="40dp"
+                 android:layout_marginRight="10dp"
+                 android:layout_marginTop="7dp"
+                 android:background="@drawable/rounded_button"
+                 android:paddingLeft="10dp"
+                 tools:layout_editor_absoluteX="8dp"
+                 tools:layout_editor_absoluteY="82dp" />
+
+             <!--<EditText-->
+             <!--android:id="@+id/student_district"-->
+             <!--android:layout_width="138dp"-->
+             <!--android:layout_height="40dp"-->
+             <!--android:layout_marginLeft="10dp"-->
+             <!--android:layout_marginRight="13dp"-->
+             <!--android:layout_marginTop="7dp"-->
+             <!--android:background="@drawable/rounded_button"-->
+             <!--android:inputType="textPersonName"-->
+             <!--android:hint="জেলা"-->
+             <!--android:paddingLeft="10dp"/>-->
+
+
+             <!--<EditText-->
+             <!--android:id="@+id/student_thana"-->
+             <!--android:layout_width="138dp"-->
+             <!--android:layout_height="40dp"-->
+             <!--android:layout_marginRight="10dp"-->
+             <!--android:layout_marginTop="7dp"-->
+             <!--android:background="@drawable/rounded_button"-->
+             <!--android:hint="উপজেলা"-->
+             <!--android:inputType="textPersonName"-->
+             <!--android:paddingLeft="10dp" />-->
+
+         </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <!--<DatePicker-->
+            <!--android:id="@+id/TvDate"-->
+            <!--android:layout_width="138dp"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginRight="13dp"-->
+            <!--android:layout_marginTop="7dp"-->
+            <!--android:textSize="22dp"-->
+            <!--android:background="@drawable/rounded_button"-->
+            <!--android:autofillHints="জন্ম তারিখ"-->
+            <!--android:paddingLeft="10dp"/>-->
+
+        <TextView
+            android:id="@+id/tvDate"
+            android:layout_width="138dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="7dp"
+            android:textSize="22dp"
+            android:background="@drawable/rounded_button"
+            android:text="Birth Date"
+            android:paddingLeft="10dp" />
+
+
+        <EditText
+            android:id="@+id/student_phone"
+            android:layout_width="138dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/rounded_button"
+            android:hint="Mobile"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp" />
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/student_password"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:paddingLeft="10dp"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+
+         <Button
+        android:id="@+id/submit_reg_btn"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="22dp"
+        android:paddingLeft="8dp"
+        android:textStyle="bold"
+        android:text="Submit " />
+
+         <!--<Spinner-->
+             <!--android:id="@+id/student_district_spinner"-->
+             <!--android:layout_width="match_parent"-->
+             <!--android:layout_marginTop="11dp"-->
+             <!--android:layout_height="55dp" />-->
+
+
+         <!--<TextView-->
+                <!--android:layout_width="236dp"-->
+                <!--android:layout_height="33dp"-->
+                <!--android:textSize="20dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:layout_marginLeft="35dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_marginTop="30dp"-->
+                <!--android:text="প্রতিযোগিতার নিয়ম সমুহ"-->
+                <!--android:gravity="center"-->
+                <!--android:textColor="@color/colorRed"-->
+                <!--android:paddingRight="22dp"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:background="@drawable/rounded_button"/>-->
+
+
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/condition1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="18dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:text="১। ফুলবন্ধু কুইজে ৭টি পর্ব রয়েছে।"-->
+                <!--android:textColor="@color/colorBlack"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:background="@drawable/rounded_button"/>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/condition2"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="18dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:text="২। প্রতি পর্বে  ১০ টি করে কুইজ এর উত্তর দিতে হবে। যার মধ্যে নূন্যতম ৫ টি প্রশ্নের সঠিক উত্তর দিতে পারলে পরবর্তী পর্বে খেলার যোগ্যতা অর্জন করবে"-->
+                <!--android:textColor="@color/colorBlack"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:background="@drawable/rounded_button"/>-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/condition3"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="18dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:text="৩। একজন শিক্ষার্থী দিনে সর্বোচ্চ দুইবার একটি পর্বে অংশগ্রহন করতে পারবে"-->
+                <!--android:textColor="@color/colorBlack"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:background="@drawable/rounded_button"/>-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/condition4"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="18dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:text="৪। প্রতি পর্বে সঠিক উত্তর ও সময়ের ভিত্তিতে প্রতিযোগীদের মধ্যে লিডারবোর্ড তৈরী করা হবে।"-->
+                <!--android:textColor="@color/colorBlack"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:background="@drawable/rounded_button"/>-->
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/condition5"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:textSize="18dp"-->
+                <!--android:textStyle="bold"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:layout_marginRight="10dp"-->
+                <!--android:layout_marginTop="8dp"-->
+                <!--android:text="৫।  কুইজে ৬ষ্ঠ-৮ম শ্রেণী ক গ্রুপ এবং ৯ম থেকে ১২শ শ্রেণী “খ” গ্রুপ হিসেবে অংশগ্রহন করবে।"-->
+                <!--android:textColor="@color/colorBlack"-->
+                <!--android:paddingLeft="10dp"-->
+                <!--android:layout_marginBottom="15dp"-->
+                <!--android:background="@drawable/rounded_button"/>-->
+
+        </LinearLayout>
+
+    <!--</ScrollView>-->
+</LinearLayout>

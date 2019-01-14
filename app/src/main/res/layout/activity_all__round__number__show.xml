@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPurple"
+    tools:context="com.example.khanmaruf.fulbondho.All_Round_Number_Show">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="8dp">
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="20dp">
+        </ImageView>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="7dp"
+            android:background="@color/colorWhite"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:text="সময়" />
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="29dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="10dp"
+            android:background="@color/colorWhite"
+            android:gravity="center_horizontal"
+            android:paddingLeft="10dp"
+            android:text="নাম্বার" />
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/round_one" />
+
+                <TextView
+                    android:id="@+id/total_round1_time"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/rounded_button"
+                    android:gravity="center"
+                    android:hint="সময়"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/total_round1_mark"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/rounded_button"
+                    android:gravity="center"
+                    android:hint="নাম্বার"
+                    android:paddingLeft="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/round_two" />
+
+                <TextView
+                    android:id="@+id/total_round2_time"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/rounded_button"
+                    android:gravity="center"
+                    android:hint="সময়"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/total_round2_mark"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/rounded_button"
+                    android:gravity="center"
+                    android:hint="নাম্বার"
+                    android:paddingLeft="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/round_three" />
+
+                <TextView
+                    android:id="@+id/total_round3_time"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/rounded_button"
+                    android:gravity="center"
+                    android:hint="সময়"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/total_round3_mark"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/rounded_button"
+                    android:gravity="center"
+                    android:hint="নাম্বার"
+                    android:paddingLeft="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/round_four" />
+
+                <TextView
+                    android:id="@+id/total_round4_time"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/rounded_button"
+                    android:gravity="center"
+                    android:hint="সময়"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/total_round4_mark"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/rounded_button"
+                    android:gravity="center"
+                    android:hint="নাম্বার"
+                    android:paddingLeft="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/round_five" />
+
+                <TextView
+                    android:id="@+id/total_round5_time"
+                    android:layout_width="79dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/rounded_button"
+                    android:gravity="center"
+                    android:hint="সময়"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/total_round5_mark"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/rounded_button"
+                    android:gravity="center"
+                    android:hint="নাম্বার"
+                    android:paddingLeft="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/round_six" />
+
+                <TextView
+                    android:id="@+id/total_round6_time"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/rounded_button"
+                    android:gravity="center"
+                    android:hint="সময়"
+                    android:paddingLeft="10dp" />
+
+                <TextView
+                    android:id="@+id/total_round6_mark"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/rounded_button"
+                    android:gravity="center"
+                    android:hint="নাম্বার"
+                    android:paddingLeft="10dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="20dp"
+                    app:srcCompat="@drawable/round_seven" />
+
+                <TextView
+                    android:id="@+id/total_round7_time"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/rounded_button"
+                    android:gravity="center"
+                    android:hint="সময়"
+                    android:paddingLeft="10dp" />
+
+                <!--<Button-->
+                <!--android:id="@+id/btn_sync"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:gravity="center"-->
+                <!--android:text="Sync" />-->
+
+
+                <TextView
+                    android:id="@+id/total_round7_mark"
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/rounded_button"
+                    android:gravity="center"
+                    android:hint="নাম্বার"
+                    android:paddingLeft="10dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/totalSevenRoundMarks"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="7dp"
+                android:background="@drawable/rounded_button"
+                android:hint=" "
+                android:gravity="center_horizontal" />
+
+            <Button
+                android:id="@+id/btn_sync"
+                android:layout_width="260dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/rounded_button"
+                android:text="তোমার নাম্বার আপডেট কর"
+                android:textSize="20dp"
+                android:textColor="#8045ba"
+                android:layout_marginTop="12dp"
+                android:layout_marginBottom="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

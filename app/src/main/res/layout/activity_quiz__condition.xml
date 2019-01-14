@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPurple"
+    tools:context="com.example.khanmaruf.fulbondho.Quiz_Condition">
+
+
+    <TextView
+        android:id="@+id/condition1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:text="১। ফুলবন্ধু কুইজে ৭টি পর্ব রয়েছে।"
+        android:textColor="@color/colorBlack"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rounded_button"/>
+
+    <TextView
+        android:id="@+id/condition2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:text="২। প্রতি পর্বে  ১০ টি করে কুইজ এর উত্তর দিতে হবে। যার মধ্যে নূন্যতম ৫ টি প্রশ্নের সঠিক উত্তর দিতে পারলে পরবর্তী পর্বে খেলার যোগ্যতা অর্জন করবে"
+        android:textColor="@color/colorBlack"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rounded_button"/>
+
+
+    <TextView
+        android:id="@+id/condition3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:text="৩। একজন শিক্ষার্থী দিনে সর্বোচ্চ দুইবার একটি পর্বে অংশগ্রহন করতে পারবে"
+        android:textColor="@color/colorBlack"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rounded_button"/>
+
+
+    <TextView
+        android:id="@+id/condition4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:text="৪। প্রতি পর্বে সঠিক উত্তর ও সময়ের ভিত্তিতে প্রতিযোগীদের মধ্যে লিডারবোর্ড তৈরী করা হবে।"
+        android:textColor="@color/colorBlack"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rounded_button"/>
+
+
+    <TextView
+        android:id="@+id/condition5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="12dp"
+        android:text="৫।  কুইজে ৬ষ্ঠ থেকে ১২শ শ্রেণীর সকল শিক্ষার্থী অংশগ্রহন করবে।"
+        android:textColor="@color/colorBlack"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rounded_button"/>
+
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPurple"
+    android:gravity="center"
+    tools:context="com.example.khanmaruf.fulbondho.flash_screen">
+
+    <!--<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />-->
+    <!--<uses-permission android:name="android.permission.INTERNET" />-->
+    <!--&lt;!&ndash;<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />&ndash;&gt;-->
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="229dp"
+        app:srcCompat="@drawable/fb_logo"/>
+
+
+    <Button
+        android:id="@+id/open_btn"
+        android:layout_width="249dp"
+        android:layout_height="49dp"
+        android:background="@drawable/rounded_button"
+        android:text="ফুলবন্ধু কুইজ প্রতিযোগিতা"
+        android:textColor="@color/colorBlack"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"
+
+        />
+</LinearLayout>

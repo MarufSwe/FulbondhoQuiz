@@ -1,0 +1,198 @@
+<resources>
+    <string name="app_name">ফুলবন্ধু</string>
+    <string name="title_activity_result_show">result_show</string>
+    <string name="title_activity_all__round">ফুলবন্ধু</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_login">Sign in</string>
+
+
+
+    //Student Class
+    <string name="selectclass"> Select Class</string>
+    <string-array name="studentClass">
+    <item>Class</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    <!--<item>৬ষ্ঠ</item>-->
+    <!--<item>৭ম</item>-->
+    <!--<item>৮ম</item>-->
+    <!--<item>৯ম</item>-->
+    <!--<item>১০ম</item>-->
+    <!--<item>একাদশ</item>-->
+    <!--<item>দ্বাদশ</item>-->
+    </string-array>
+
+
+    //District and Upozela
+    <string name="selectdistrict"> Select District</string>
+    <string-array name="district">
+        <item>District</item>
+        <item>BAGERHAT</item>
+        <item>BANDARBAN</item>
+        <item>BARGUNA</item>
+        <item>BARISAL</item>
+        <item>BHOLA</item>
+        <item>BOGRA</item>
+        <item>BRAHMANBARIA</item>
+        <item>CHANDPUR</item>
+        <item>CHITTAGONG</item>
+        10
+        <item>COMILLA</item>
+        <item>CHUADANGA</item>
+        <item>COXS BAZAR</item>
+        <item>DHAKA</item>
+        <item>DINAJPUR</item>
+        <item>FARIDPUR</item>
+        <item>FENI</item>
+        <item>GAIBANDHA</item>
+        <item>GAZIPUR</item>
+        <item>GOPALGANJ</item>
+        20
+        <item>HABIGANJ</item>
+        <item>JOYPURHAT</item>
+        <item>JAMALPUR</item>
+        <item>JESSORE</item>
+        <item>JHALOKATI</item>
+        <item>JHENAIDAH</item>
+        <item>KHAGRACHHARI</item>
+        <item>KHULNA</item>
+        <item>KISHOREGONJ</item>
+        <item>KURIGRAM</item>
+        30
+        <item>KUSHTIA</item>
+        <item>LAKSHMIPUR</item>
+        <item>LALMONIRHAT</item>
+        <item>MADARIPUR</item>
+        <item>MAGURA</item>
+        <item>MANIKGANJ</item>
+        <item>MEHERPUR</item>
+        <item>MAULVIBAZAR</item>
+        <item>MUNSHIGANJ</item>
+        <item>MYMENSINGH</item>
+        40
+        <item>NAOGAON</item>
+        <item>NARAIL</item>
+        <item>NARAYANGANJ</item>
+        <item>NARSINGDI</item>
+        <item>NATORE</item>
+        <item>CHAPAI NABABGANJ</item>
+        <item>NETRAKONA</item>
+        <item>NILPHAMARI ZILA</item>
+        <item>NOAKHALI</item>
+        <item>PABNA</item>
+        50
+        <item>PANCHAGARH</item>
+        <item>PATUAKHALI</item>
+        <item>PIROJPUR</item>
+        <item>RAJSHAHI</item>
+        <item>RAJBARI</item>
+        <item>RANGAMATI</item>
+        <item>RANGPUR</item>
+        <item>SHARIATPUR</item>
+        <item>SATKHIRA</item>
+        <item>SIRAJGANJ</item>
+        60
+        <item>SHERPUR</item>
+        <item>SUNAMGANJ</item>
+        <item>SYLHET</item>
+        <item>TANGAIL</item>
+        <item>THAKURGAON</item>
+    </string-array>
+
+
+    //Developer
+    <string name="iftee">
+        <br>
+          <h1><b>  Md. Iftekharul Alam Efat </b></h1>\n</br>
+        <br>
+            Sr. Lecturer \n</br>
+        <br>
+            Dept. of Software Engineering \n</br>
+        <br>
+            Daffodil International University \n</br>
+    </string>
+
+    <string name="maruf">
+        <br>
+             <h1><b>Maksudur Rahman Maruf </b></h1>\n</br>
+        <br>
+            Final Year Student \n</br>
+        <br>
+            Dept. of Software Engineering \n</br>
+        <br>
+            Daffodil International University \n</br>
+    </string>
+
+    <string name="sheiblu">
+        <br>
+            <h1><b> Ashraful Islam Sheiblu </b></h1>\n</br>
+        <br>
+            Final Year Student \n</br>
+        <br>
+            Dept. of Software Engineering \n</br>
+        <br>
+            Daffodil International University \n</br>
+    </string>
+
+
+    //Sohayok Link
+    <string name="sohayokLink">
+        <br>
+          <h1><b>*** ফুলবন্ধু কুইজ প্রতিযোগিতার তথ্যসূত্র ও    বইসমূহ *** </b></h1>\n\n</br>
+        <br>
+            ১। ৩য় শ্রেনীঃ বাংলা, বাংলদেশ ও বিশ্ব পরিচয়
+            \n ২। ৪র্থ শ্রেনীঃ বাংলা, বাংলদেশ ও বিশ্ব পরিচয়
+            \n ৩। ৫ম শ্রেনীঃ বাংলা \n ৫। ৮ম শ্রেনীঃ  বাংলদেশ ও বিশ্ব পরিচয়
+            \n ৬। মুক্তিযুদ্ধ বিষয়ক মন্ত্রনালয় ওয়েবসাইট > মন্ত্রণালয় সম্পর্কে> ইতিহাস
+            \n ৭। বীরশ্রেষ্ঠ- আহসান সাব্বির
+            \n ৮। মুক্তিযুদ্ধের ইতিহাস- মুহম্মদ জাফর ইকবাল
+            \n ৯। একাত্তরের চিঠি- সংকলন
+            \n ১০। লক্ষ প্রানের বিনিময়ে- রফিকুল ইসলাম, বীরউত্তম
+            \n ১১। ৭১, শেখ মুজিব বাংলাদেশ- আহসান ফিরোজ
+            \n ১২। বাংলাদেশের মুক্তিযুদ্ধে মুজিবনগর - রফিকুর রশীদ
+            \n ১৩। শেখ মুজিব আমার পিতা – শেখ হাসিনা
+            \n ১৪। মুক্তিযুদ্ধের কিশোর গল্প
+            \n ১৫। অসমাপ্ত আত্মজীবনী
+            \n ১৬। জনযুদ্ধের গণযোদ্ধা- মেজর কাম্রুল হাসান ভুঁইয়া
+            \n ১৭। আমার বন্ধু রাশেদ – মুহম্মদ জাফর ইকবাল
+            \n ১৮। অপারেশন জ্যাকপট – সেজান মাহমুদ
+            \n ১৯। একাত্তরের মুক্তিযুদ্ধে বুদ্ধিজীবীদের ভূমিকা- এম আর আখতার মুকুল
+            \n ২০। বাংলাদেশ সরকার ১৯৭১ – এইচ টি ইমাম
+            \n ২১। কিশোর মুক্তিযুদ্ধ কোষ – মুনতাসির মামুন
+            \n ২২। স্বাধীনতা যুদ্ধে খেতাবপ্রাপ্ত বীর মুক্তিযোদ্ধা – আনোয়ার শাহজাহান
+            \n ২৩। বাংলাদেশের মুক্তিযুদ্ধঃ ভারত, রাশিয়া, চীন ও যুক্তরাষ্ট্রের ভূমিকা – মেজর রফিকুল ইসলাম, পিএসসি
+            \n ২৪। বাংলাদেশের মুক্তিযুদ্ধে বিদেশীদের ভূমিকা – সোহরাব হোসেন
+            \n ২৫। আমি বিজয় দেখেছি - এম আর আখতার মুকুল
+            \n ২৬। একাত্তরের ডায়েরী – সুফিয়া কামাল
+
+            \n\n  <h1><b> *** মুক্তিযুদ্ধভিত্তিক কুইজ প্রতিযোগিতামূলক করতে ক্রমান্বয়ে সহজ থেকে কঠিন করা হয়েছে। প্রশ্ন ও উত্তরসমূহ ৩য় থেকে ৮ম শ্রেনীর বিভিনু পাঠ্যবই ও মুক্তিযুদ্ধভিত্তিক বিভিন্ন লেখকের বই থেকে নেওয়া হয়েছে। প্রতিযোগিতায় ভাল করার জন্য শিক্ষার্থীদের এসব বই ও রেফারেন্স পড়ার পরামর্শ দেওয়া হচ্ছে।*** </b> </h1>
+</br>
+        <br>
+            \n</br>
+        <br>
+             \n</br>
+    </string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+</resources>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SupportLink">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/supportLink"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/sohayokLink"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/colorBlack"
+        android:textSize="16dp" />
+
+    </ScrollView>
+
+
+    <!--&lt;!&ndash;<com.github.barteksc.pdfviewer.PDFView&ndash;&gt;-->
+        <!--&lt;!&ndash;android:id="@+id/pdfView"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_below="@+id/tv_header"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+        <!--&lt;!&ndash;android:layout_height="match_parent"/>&ndash;&gt;-->
+    <!--<TextView-->
+        <!--android:id="@+id/supportLink"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="20dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:text=" ফুলবন্ধু কুইজ প্রতিযোগিতার তথ্য সুত্র ও বইসমুহ"-->
+        <!--android:textColor="@color/colorRed"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:background="@drawable/rounded_button"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/condition1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="15dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:text="১। ৩য়, ৪র্থ ও ৮ম শ্রেণির বাংলাদেশ ও বিশ্ব পরিচয়"-->
+        <!--android:textColor="@color/colorBlack"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:background="@drawable/rounded_button"/>-->
+
+    <!--<TextView-->
+        <!--android:id="@+id/condition2"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="15dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:text="২। মুক্তিযুদ্ধ বিষয়ক বিষয়ক মন্ত্রনালয় ওয়েবসাইট > মন্ত্রণালয় সম্পর্কিত> ইতিহাস"-->
+        <!--android:textColor="@color/colorBlack"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:background="@drawable/rounded_button"/>-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/condition3"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="15dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:text="৩। শেখ মুজিব আমার পিতা - শেখ হাসিনা-->
+<!--বীরশ্রেষ্ঠ- আহসান হাবীব-->
+<!--মুক্তিযুদ্ধের ইতিহাস - মুহম্মদ জাফর ইকবাল-->
+<!--একাত্তরের চিঠি - সংকলন-->
+<!--লক্ষ প্রাণের বিনিময়ে - রফিকুল ইসলাম বীর উত্তম"-->
+        <!--android:textColor="@color/colorBlack"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:background="@drawable/rounded_button"/>-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/condition4"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:background="@drawable/rounded_button"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:text="৪। আমার বন্ধু রাশেদ - মুহম্মদ জাফর ইকবাল-->
+<!--অপারেশন জ্যাকপট - সেজান মাহমুদ-->
+<!--একাত্তরের ডায়েরী - সুফিয়া কামাল-->
+<!--আমি বিজয় দেখেছি - এম আর আখতার মুকুল-->
+<!--কিশোর মুক্তিযুদ্ধ কোষ - মুনতাসীর মামুন"-->
+        <!--android:textColor="@color/colorBlack"-->
+        <!--android:textSize="15dp" />-->
+
+
+    <!--<TextView-->
+        <!--android:id="@+id/condition5"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:textSize="20dp"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginRight="10dp"-->
+        <!--android:layout_marginTop="12dp"-->
+        <!--android:text="**মুক্তিযুদ্ধ ভিত্তিক কুইজ প্রতিযোগিতামূলক করতে ক্রমান্নয়ে কঠিন করা হয়েছে। প্রশ্ন ও উত্তর সমূহ ৩য় থেকে ৮ম শ্রেণীর বিভিন্ন পাঠ্যবই ও মুক্তিযুদ্ধভিত্তিক বিভিন্ন লেখকের বই থেকে নেওয়া**"-->
+        <!--android:textColor="@color/colorBlack"-->
+        <!--android:paddingLeft="10dp"-->
+        <!--android:background="@drawable/rounded_button"/>-->
+
+
+</LinearLayout>

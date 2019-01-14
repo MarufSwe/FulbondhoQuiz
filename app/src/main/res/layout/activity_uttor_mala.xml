@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPurple"
+    tools:context="com.example.khanmaruf.fulbondho.UttorMala">
+
+
+    <TextView
+        android:id="@+id/round_no_uttorMala"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:background="@drawable/rounded_button"
+        android:text="১ম রাউন্ড"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/rounded_button"
+            android:text="সঠিক উত্তর"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp" />
+
+
+        <TextView
+            android:id="@+id/uttorMala_allAnswer"
+            android:layout_width="138dp"
+            android:layout_height="40dp"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="7dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:textSize="25dp"
+            android:paddingLeft="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/rounded_button"
+            android:text="মোট সময়"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp" />
+
+
+        <TextView
+            android:id="@+id/uttorMala_totalTime"
+            android:layout_width="138dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="7dp"
+            android:textSize="25dp"
+            android:background="@drawable/rounded_button"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="20dp">
+
+
+        <TextView
+            android:layout_width="134dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="13dp"
+            android:layout_marginTop="7dp"
+            android:background="@drawable/rounded_button"
+            android:text="প্রাপ্ত নাম্বার"
+            android:textSize="20dp"
+            android:textColor="@color/colorBlack"
+            android:layout_gravity="center"
+            android:paddingLeft="10dp" />
+
+
+        <TextView
+            android:id="@+id/uttorMala_totalNumber"
+            android:layout_width="138dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="7dp"
+            android:textSize="25dp"
+            android:background="@drawable/rounded_button"
+            android:paddingLeft="10dp" />
+    </LinearLayout>
+
+    <RatingBar
+        android:id="@+id/ratingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:isIndicator="true"
+        android:background="@drawable/rounded_button"
+        android:layout_marginLeft="10dp"/>
+
+    <!--<TextView-->
+        <!--android:id="@+id/ratingBar_value"-->
+        <!--android:paddingLeft="20dp"-->
+        <!--android:layout_width="111dp"-->
+        <!--android:textSize="22dp"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <Button
+        android:id="@+id/uttorMala_againPlay_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded_button"
+        android:gravity="center"
+        android:text="আবার খেলুন"
+        android:textColor="@color/colorBlack"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/uttorMala_nextRound_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:background="@drawable/rounded_button"
+        android:text="ফলাফল দেখো"
+        android:textColor="@color/colorBlack"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+
+</LinearLayout>

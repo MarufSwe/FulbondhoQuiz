@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPurple"
+    tools:context="com.example.khanmaruf.fulbondho.result_show">
+
+
+    //-------------------For Time and Number--------------//
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/text_view_show_number_round1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_button"
+            android:hint="নম্বর"
+            android:textColor="@color/colorBlack"
+            android:textSize="16dp"
+            android:paddingLeft="14dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/text_view_show_time_round1"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="90dp"
+            android:background="@drawable/rounded_button"
+            android:paddingLeft="22dp"
+            android:text="00.00"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/colorRed"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+    //-----------------Question Zone-------------//
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            //question 1
+
+
+            <TextView
+                android:id="@+id/questn1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:textSize="24sp"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/rounded_button">
+
+
+                <CheckBox
+                    android:id="@+id/Answer_option1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_option2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_option3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+            </LinearLayout>
+            <TextView
+                android:id="@+id/questn1_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"/>
+
+
+            //question 2
+
+            <TextView
+                android:id="@+id/questn2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/rounded_button"
+                android:textColor="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/rounded_button">
+
+                <CheckBox
+                    android:id="@+id/Answer_Q2_option_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:background="@drawable/rounded_button"
+                    android:text=""
+                    android:clickable="false"
+                    android:textSize="20dp" />
+
+                <CheckBox
+                    android:id="@+id/Answer_Q2_option_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_Q2_option_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/questn2_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"/>
+
+
+
+            ////question 3
+
+            <TextView
+                android:id="@+id/questn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/rounded_button"
+                android:textColor="@android:color/black"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/rounded_button">
+
+
+                <CheckBox
+                    android:id="@+id/Answer_Q3_option_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_Q3_option_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_Q3_option_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/questn3_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"/>
+
+
+            ////question 4
+
+            <TextView
+                android:id="@+id/questn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/rounded_button"
+                android:textColor="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/rounded_button">
+
+
+                <CheckBox
+                    android:id="@+id/Answer_Q4_option_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_Q4_option_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_Q4_option_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/questn4_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"/>
+
+
+
+            ////question 5
+
+            <TextView
+                android:id="@+id/questn5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/rounded_button"
+                android:textColor="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/rounded_button">
+
+
+                <CheckBox
+                    android:id="@+id/Answer_Q5_option_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_Q5_option_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_Q5_option_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/questn5_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"/>
+
+
+
+            ////question 6
+
+            <TextView
+                android:id="@+id/questn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/rounded_button"
+                android:textColor="@android:color/black"/>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/rounded_button">
+
+                <CheckBox
+                    android:id="@+id/Answer_Q6_option_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_Q6_option_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_Q6_option_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/questn6_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"/>
+
+
+
+            ////question 7
+
+            <TextView
+                android:id="@+id/questn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/rounded_button"
+                android:textColor="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/rounded_button">
+
+                <CheckBox
+                    android:id="@+id/Answer_Q7_option_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_Q7_option_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+
+                <CheckBox
+                    android:id="@+id/Answer_Q7_option_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/questn7_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"/>
+
+
+            ////question 8
+
+            <TextView
+                android:id="@+id/questn8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/rounded_button"
+                android:textColor="@android:color/black"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/rounded_button">
+
+
+                <CheckBox
+                    android:id="@+id/Answer_Q8_option_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_Q8_option_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_Q8_option_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/questn8_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"/>
+
+
+            ////question 9
+
+            <TextView
+                android:id="@+id/questn9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/rounded_button"
+                android:textColor="@android:color/black"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/rounded_button">
+
+
+                <CheckBox
+                    android:id="@+id/Answer_Q9_option_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_Q9_option_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_Q9_option_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/questn9_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"/>
+
+
+            ////question 10
+
+            <TextView
+                android:id="@+id/questn10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="24sp"
+                android:layout_marginTop="30dp"
+                android:paddingLeft="10dp"
+                android:background="@drawable/rounded_button"
+                android:textColor="@android:color/black"/>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="7dp"
+                android:paddingLeft="20dp"
+                android:background="@drawable/rounded_button">
+
+
+                <CheckBox
+                    android:id="@+id/Answer_Q10_option_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_Q10_option_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+                <CheckBox
+                    android:id="@+id/Answer_Q10_option_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginBottom="0dp"
+                    android:textSize="20dp"
+                    android:clickable="false"
+                    android:background="@drawable/rounded_button"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/questn10_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_button"
+                android:textSize="20sp"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="10dp"
+                android:paddingLeft="10dp"
+                android:textColor="@android:color/black"/>
+
+
+            <Button
+                android:id="@+id/goBack2Home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/rounded_button"
+                android:text="প্রথম পেজে ফিরে যাও"
+                android:textSize="22dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+
+

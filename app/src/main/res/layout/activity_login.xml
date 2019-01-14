@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorPurple"
+    tools:context="com.example.khanmaruf.fulbondho.LoginActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="300dp"
+        android:layout_height="200dp"
+        app:srcCompat="@drawable/fb_logo" />
+
+    <EditText
+        android:id="@+id/et_student_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/rounded_button"
+        android:hint="ফোন নাম্বার"
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/et_student_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:hint="পাসওয়ার্ড"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/rounded_button"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/login_submit"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:text="লগইন"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="25dp"/>
+
+    <!--<br.com.simplepass.loading_button_lib.customViews.CircularProgressButton-->
+        <!--android:id="@+id/login_submit"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:textColor="@android:color/white"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:background="@drawable/shape_default"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginTop="25dp"-->
+        <!--android:text="লগইন"-->
+        <!--android:textSize="22dp"-->
+        <!--android:textStyle="bold"-->
+        <!--app:spinning_bar_color="#FFF"-->
+        <!--app:spinning_bar_padding="6dp"-->
+        <!--app:spinning_bar_width="4dp" />-->
+
+
+</LinearLayout>

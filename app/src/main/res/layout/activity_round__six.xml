@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPurple"
+    android:gravity="center"
+    tools:context="com.example.khanmaruf.fulbondho.Round_Six">
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginBottom="22dp"
+        android:background="@color/colorWhite"
+        android:text="          ৬ষ্ঠ রাউন্ড" />
+
+    <ImageView
+        android:layout_width="288dp"
+        android:layout_height="190dp"
+        app:srcCompat="@drawable/round_six" />
+
+
+    <TextView
+        android:layout_width="249dp"
+        android:layout_height="89dp"
+        android:background="@drawable/rounded_button"
+        android:text="শহিদ বুদ্ধিজীবী, গেরিলা যুদ্ধ, রাজাকার বাহিনী, ক্রাক প্লাটুন, মিত্র বাহিনী, বিশ্ব জনমত"
+        android:textColor="@color/colorBlack"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/sixth_round_btn"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="শুরু করো"/>
+
+
+</LinearLayout>

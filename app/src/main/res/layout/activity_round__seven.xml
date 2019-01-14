@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPurple"
+    android:gravity="center"
+    tools:context="com.example.khanmaruf.fulbondho.Round_Seven">
+
+
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@color/colorBlack"
+        android:layout_marginBottom="22dp"
+        android:background="@color/colorWhite"
+        android:text="          ৭ম  রাউন্ড" />
+
+    <ImageView
+        android:layout_width="288dp"
+        android:layout_height="190dp"
+        app:srcCompat="@drawable/round_seven" />
+
+
+    <TextView
+        android:layout_width="249dp"
+        android:layout_height="89dp"
+        android:background="@drawable/rounded_button"
+        android:text="বঙ্গবন্ধু শেখ মুজিবর রহমান, বিজয় ও স্বীকৃতি, সরকার ও সংবিধান"
+        android:textColor="@color/colorBlack"
+        android:textSize="18dp"
+        android:gravity="center"
+
+        android:textStyle="bold"
+        android:layout_marginTop="12dp"/>
+
+    <Button
+        android:id="@+id/seventh_round_btn"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="শুরু করো"/>
+
+</LinearLayout>

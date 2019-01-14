@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPurple"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.khanmaruf.fulbondho.All_Round"
+    tools:showIn="@layout/app_bar_all__round">
+
+
+    <Button
+        android:id="@+id/first_round"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_button"
+        android:text="৭ জন বীরশ্রেষ্ঠ এর জীবনী ও যুদ্ধের ইতিবৃত্ত"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/second_round"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="স্বাধীনতার পটভূমি, ঘোষণাপত্র, ২৫শে মার্চ এর গণহত্যা"/>
+
+    <Button
+        android:id="@+id/third_round"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="মুজিবনগর সরকার, শপথ, প্রবাসী সরকার এর প্রতিনিধি"/>
+
+    <Button
+        android:id="@+id/fourth_round"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="মুক্তিযুদ্ধের সেক্টর, সাব সেক্টর, ব্রিগেড ফোর্স, সেক্টর কমান্ডার" />
+
+    <Button
+        android:id="@+id/fifth_round"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="মুক্তিযুদ্ধের গান, কবিতা, চলচ্চিত্র, উপন্যাস, অনুষ্ঠান" />
+
+    <Button
+        android:id="@+id/sixth_round"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="শহিদ বুদ্ধিজীবী, গেরিলা যুদ্ধ, রাজাকার বাহিনী, ক্র্যাক প্লাটুন, মিত্র বাহিনী, বিশ্ব জনমত" />
+
+    <Button
+        android:id="@+id/seventh_round"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:layout_marginTop="12dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="বঙ্গবন্ধু শেখ মুজিবুর রহমান, বিজয় ও স্বীকৃতি, সরকার ও সংবিধান" />
+
+
+</LinearLayout>
